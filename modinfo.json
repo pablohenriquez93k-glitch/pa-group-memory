@@ -1,0 +1,24 @@
+{
+  "context": "client",
+  "identifier": "com.pa.pabloandclaude.groupmemory",
+  "display_name": "Group Memory",
+  "description": "Remembers your control groups (1-0) when you save and restores them when you load the save.",
+  "author": "Pablo & Claude",
+  "version": "1.0.0",
+  "forum": "https://github.com/pablohenriquez93k-glitch/pa-group-memory",
+  "build": "124674",
+  "date": "2026-09-27",
+  "signature": " ",
+  "category": ["ui", "control groups"],
+  "scenes": {
+    "connect_to_game": [
+      "coui://ui/mods/com.pa.pabloandclaude.groupmemory/connect_to_game.js"
+    ],
+    "live_game": [
+      "coui://ui/mods/com.pa.pabloandclaude.groupmemory/live_game.js"
+    ],
+    "live_game_control_group_bar": [
+      "coui://ui/mods/com.pa.pabloandclaude.groupmemory/live_game_control_group_bar.js"
+    ]
+  }
+}
